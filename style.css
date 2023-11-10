@@ -8,9 +8,9 @@ body{
     background-size: cover;
 }
 .logo img{
-    width: 50vw;
+    width: 45vw;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 main{
     margin-top: 26vh;
@@ -34,7 +34,7 @@ main{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 footer{
     display: flex;
@@ -60,4 +60,99 @@ footer{
     font-size: 20px;
     color: rgb(242, 119, 6);
     font-weight: bold;
+}
+/********************************************************************************/
+.login{
+    position: relative;
+    margin-top: 4vh;
+}
+.titulo-login{
+    width: 60vw;
+}
+.texto-titulo-login{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: left;
+}
+.subtitulo-login{
+    width: 80vw;
+}
+.texto-subtitulo-login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 1.5vh;
+}
+.dados-login{
+    margin-top: 5vh;
+    margin-left: 6vw;
+
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.texto-email{
+    margin-left: 1.6vh;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+hr{
+    margin-right: 10vw;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    height: 1px;
+    margin-top: 5px;
+    width: 72vw;
+}
+.senha{
+    display: flex;
+    align-items: center;
+    margin-top: 6vh;
+}
+.texto-senha{
+    margin-left: 1.6vh;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.enviar-info{
+    text-decoration: none;
+    border-radius: 10px;
+}
+.botao-enviar-info{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 7vw;
+}
+.enviar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(242, 119, 6);
+    font-weight: bold;
+}
+.esqueci-senha{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 65px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.criar-conta{
+    display: flex;
+    justify-content: center;
+}
+.texto-criar-conta{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8vh;
+    margin-left: -6vw;
+    font-family: 'Roboto', sans-serif;
 }
