@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/Background.svg);
+    background-size: cover;
+}
+.logo img{
+    width: 50vw;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+main{
+    margin-top: 26vh;
+    height: 30vh;
+    margin-left: 20px;
+}
+.div-titulo{
+    width: 60vw;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: left;
+}
+.div-subtitulo{
+    width: 90vw;
+    
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 2vh;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    margin-top: 10vh;
+}
+.botao{
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+.botao-comecar{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comecar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(242, 119, 6);
+    font-weight: bold;
+}
