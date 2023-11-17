@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 203, 154);
+}
+.texto-home{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 5vw;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+.mensagem-cliente{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 5vw;
+    font-weight: lighter;
+}
+.icon-cliente{
+    position: absolute;
+    left: 80vw;
+    top: 18px;
+}
+.barra-pesquisa{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    width: 80vw;
+    margin-left: 10vw;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+}
+.icon-pesquisa{
+    width: 18px;
+}
+.mensagem-barra-pesquisa{
+    font-size: 14px;
+    margin-right: 4px;
+    color: rgb(0, 0, 0, 70%);
+}
