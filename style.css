@@ -145,14 +145,21 @@ hr{
     color: rgb(255, 255, 255);
     font-size: 12px;
 }
-.criar-conta{
+.botao-criar-conta{
     display: flex;
     justify-content: center;
 }
 .texto-criar-conta{
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    margin-top: 8vh;
-    margin-left: -6vw;
-    font-family: 'Roboto', sans-serif;
 }
+.criar-conta{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 22vw;
+    height: 5vh;
+    width: 42vw;
+    margin-top: 8vh;
+}
+/**********************************************************/
