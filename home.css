@@ -89,44 +89,43 @@ input:focus{
 .container-pizzas{
     display: flex;
     justify-content: center;
-    margin-left: 6vw;
+    margin-left: 4vw;
     margin-top: 2vh;
+    overflow-x: scroll;
+    white-space: nowrap;
+    gap: 1vh;
 }
 .pizza1{
     background-image: url(./img/calabreza\ com\ queijo.svg);
     width: 450px;
     height: 15.6vh;
+    margin-left: 9.5vh;
     border-radius: 5%;
+    background-repeat: no-repeat;
 }
 .pizza2{
     background-image: url(./img/pepperoni\ com\ queijo.svg);
     width: 450px;
     height: 15.6vh;
-    margin-left: 10px;
     border-radius: 5%;    
+    background-repeat: no-repeat;
 }
 .pizza3{
     background-image: url(./img/marguerita.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 220px;
+    width: 450px;
     height: 15.6vh;
-    margin-left: 10px;
-    border-radius: 5% 0% 0% 5%;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow-x: hidden;
+    background-repeat: no-repeat;
 }
 .preco{
     width: 17vw;
     height: 3vh;
     background-color: red;
-    border-radius: 30%;
+    border-radius: 50%;
     display: flex;
     text-justify: center;
     text-align: center;
     margin-top: 5vh;
+    margin-left: .5vh;
 }
 .texto-preco{
     font-size: 14px;
@@ -136,13 +135,16 @@ input:focus{
     font-family: 'Roboto', sans-serif;
 }
 .descricao{
-    width: 100%;
+    width: 20vh;
     height: 40%;
+    white-space: normal;
     background-color: rgb(0, 0, 0, 55%);
     margin-top: 5px;
+    border-radius: 5%;
 }
 .texto-descricao{
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    margin-left: 2px;
 }
