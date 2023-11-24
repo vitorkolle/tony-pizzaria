@@ -93,10 +93,26 @@ footer{
     display: flex;
     align-items: center;
 }
-.texto-email{
-    margin-left: 1.6vh;
+.icon-email{
+    margin-right: 1vh;
+}
+input{
+    border: none;
+    width: 64vw;
+    height: 3vh;
+    background-color: transparent;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input::placeholder{
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
+    font-size: 14px;
 }
 hr{
     margin-right: 10vw;
@@ -111,10 +127,8 @@ hr{
     align-items: center;
     margin-top: 6vh;
 }
-.texto-senha{
-    margin-left: 1.6vh;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+.icon-senha{
+    margin-right: 1vh;
 }
 .enviar-info{
     text-decoration: none;
