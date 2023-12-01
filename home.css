@@ -220,6 +220,7 @@ input:focus{
     margin-left: 6vw;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
+    cursor: pointer;
 }
 .titulo-bebida{
     font-family: 'Roboto', sans-serif;
@@ -262,6 +263,7 @@ input:focus{
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
     margin-top: 1.5vh;
+    cursor: pointer;
 }
 .descricao-bebida2{
     margin-top: 4vh;
@@ -280,4 +282,61 @@ input:focus{
     text-align: center;
     margin-top: 5vh;
     margin-left: -17.5vh;
+}
+footer{
+    background-color: rgb(242, 119, 6);
+    height: 8vh;
+}
+.elementos-navegacao{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    gap: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+.perfil{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icone-perfil{
+    height: 3vh;
+    margin-bottom: .5vh;
+}
+.texto-perfil{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+}
+.bebidas{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icone-bebida{
+    height: 3vh;
+    margin-bottom: .5vh;
+}
+.texto-bebida{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+}
+.sobremesas{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icone-sobremesa{
+    height: 3vh;
+    margin-bottom: .5vh;
+}
+.texto-sobremesa{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
 }
