@@ -200,3 +200,84 @@ input:focus{
     background-size: cover;
     cursor: pointer;
 }
+.texto-bebidas{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 6vw;
+    margin-top: 1vh;
+}
+.container-bebidas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5vh;
+}
+.bebida1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    height: 10vh;
+    margin-left: 6vw;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
+}
+.titulo-bebida{
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+    margin-top: .5vh;
+}
+.descricao-bebida1{
+    margin-top: 4vh;
+    margin-left: -14vh;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    width: 23vh;
+}
+.preco-bebida{
+    width: 17vw;
+    height: 3vh;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    text-justify: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 9vh;
+}
+.texto-preco-bebida{
+    font-size: 14px;
+    margin-left: .5vh;
+    margin-top: .5vh;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.bebida2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    height: 10vh;
+    margin-left: 6vw;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
+    margin-top: 1.5vh;
+}
+.descricao-bebida2{
+    margin-top: 4vh;
+    margin-left: -18.5vh;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    width: 50vh;
+}
+.preco-bebida2{
+    width: 17vw;
+    height: 3vh;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    text-justify: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: -17.5vh;
+}
