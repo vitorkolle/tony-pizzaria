@@ -23,7 +23,7 @@ body{
 }
 .icon-cliente{
     position: absolute;
-    left: 80vw;
+    left: 74vw;
     top: 13px;
 }
 .barra-pesquisa{
@@ -33,7 +33,7 @@ body{
     background-color: rgb(255, 255, 255);
     height: 6vh;
     width: 80vw;
-    margin-left: 10vw;
+    margin-left: 8vw;
     align-items: center;
     font-family:'Roboto', sans-serif;
 }
@@ -63,6 +63,7 @@ input:focus{
 .container-imagens-categorias{
     display: flex;
     gap: 2vh;
+    width: 48vh;
     margin-top: 1.5vh;
     white-space: nowrap;
     overflow-x: scroll;
@@ -85,6 +86,7 @@ input:focus{
     text-shadow: 2px 2px 2px black;
     margin-left: 6vw;
     margin-top: 1vh;
+    width: 75vh;
 }
 .container-pizzas{
     display: flex;
@@ -177,6 +179,7 @@ input:focus{
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
+    width: 60vh;
 }
 .pizza4{
     background-image: url(./img/pepperoni-com-queijo-e-tomate.svg);
@@ -215,9 +218,9 @@ input:focus{
 .bebida1{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 90vw;
+    width: 88vw;
     height: 10vh;
-    margin-left: 6vw;
+    margin-left: 2vw;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
     cursor: pointer;
@@ -257,9 +260,9 @@ input:focus{
 .bebida2{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 90vw;
+    width: 88vw;
     height: 10vh;
-    margin-left: 6vw;
+    margin-left: 2vw;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
     margin-top: 1.5vh;
@@ -294,6 +297,7 @@ footer{
     gap: 8vh;
     margin-top: 4vh;
     margin-bottom: 1vh;
+    margin-left: -2vh;
 }
 .perfil{
     margin-top: 2vh;
