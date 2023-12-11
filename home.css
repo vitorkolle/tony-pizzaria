@@ -33,7 +33,7 @@ body{
     background-color: rgb(255, 255, 255);
     height: 6vh;
     width: 80vw;
-    margin-left: 8vw;
+    margin-left: 10vw;
     align-items: center;
     font-family:'Roboto', sans-serif;
 }
@@ -214,6 +214,7 @@ input:focus{
     display: flex;
     flex-direction: column;
     margin-top: 1.5vh;
+    margin-left: 2vh;
 }
 .bebida1{
     display: flex;
@@ -297,7 +298,7 @@ footer{
     gap: 8vh;
     margin-top: 4vh;
     margin-bottom: 1vh;
-    margin-left: -2vh;
+    margin-left: 1vh;
 }
 .perfil{
     margin-top: 2vh;
