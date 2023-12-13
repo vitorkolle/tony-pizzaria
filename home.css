@@ -80,6 +80,9 @@ input:focus{
     background-color: transparent;
     cursor: pointer;  
 }
+.img-categorias{
+    cursor: pointer;
+}
 .texto-pizzas-favoritas{
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
